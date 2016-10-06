@@ -1,7 +1,7 @@
 package com.android.chickenbuzz.utils;
 
 /**
- * Created by krelluru on 8/26/2016.
+ * Created by Mahesh on 8/26/2016.
  */
 
 public class Constant {
