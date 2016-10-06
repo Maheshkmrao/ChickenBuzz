@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/appbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorWhite">
+
+            <!--<TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textAllCaps="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <RelativeLayout
+                    android:id="@+id/settings_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_button_selector"
+                    android:clickable="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/btn_settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_settings"
+                        android:text="@string/button_next"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_settings"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/btn_settings"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/home_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_button_selector"
+                    android:clickable="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/btn_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_home"
+                        android:text="@string/button_next"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/btn_home"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/buzz_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_button_selector"
+                    android:clickable="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/btn_buzz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_bell_ring"
+                        android:text="@string/button_next"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/buzz"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/btn_buzz"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/track_me_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_button_selector"
+                    android:clickable="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/btn_track_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_map_marker_multiple"
+                        android:text="@string/button_next"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/track_me"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/btn_track_me"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/follow_you_scroll_layout"
+        layout="@layout/homescreen_horizontal_scroll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"/>
+
+    <!--<include
+        android:id="@+id/frame_layout"
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/follow_you_scroll_layout"
+        android:layout_above="@+idzz/follow_me_scroll_layout"
+        />-->
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/follow_you_scroll_layout"
+        android:layout_above="@+id/follow_me_scroll_layout"
+        android:background="@color/colorWhite"
+        />
+
+    <include
+        android:id="@+id/follow_me_scroll_layout"
+        layout="@layout/homescreen_horizontal_scroll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer_layout"
+        />
+
+    <include android:id="@+id/footer_layout"
+        layout="@layout/home_screen_footer_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+</RelativeLayout>

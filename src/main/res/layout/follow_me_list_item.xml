@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/user_listrow_selector"
+    android:layout_margin="@dimen/ten_dp"
+    android:padding="@dimen/five_dp"
+	android:clickable="true"
+	>
+
+	<ImageView android:id="@+id/star_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@android:drawable/btn_star_big_off"
+		android:layout_margin="@dimen/five_dp"
+		android:layout_centerVertical="true"
+		/>
+
+	<ImageView android:id="@+id/imageView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@android:drawable/sym_def_app_icon"
+	    android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/star_image"
+	    />
+
+	<TextView android:id="@+id/textView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/user_name_text_color"
+	    android:textStyle="normal"
+	    android:text="@string/app_name"
+		android:textSize="@dimen/text_size_medium1"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="@dimen/five_dp"
+	    android:layout_toRightOf="@+id/imageView"
+	    />
+
+	<ImageButton android:id="@+id/deleteicon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/ic_menu_camera"
+		android:layout_margin="@dimen/five_dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

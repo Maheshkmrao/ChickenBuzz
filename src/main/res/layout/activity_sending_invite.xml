@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<android.support.v7.widget.SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:padding="10dp" />-->
+
+    <include layout="@layout/searchview_layout"
+        android:id="@+id/searchview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchview_layout"
+        android:layout_above="@+id/btn_next">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/colorGreen"
+            android:dividerHeight="1px"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="vertical"
+            android:padding="0dip"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            android:soundEffectsEnabled="true" />
+
+        <com.android.chickenbuzz.componenets.AlphabetSideSelector
+            android:id="@+id/side_selector"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+             />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"
+        android:text="@string/button_next"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

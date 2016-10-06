@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#1abc9c</color>
+    <color name="colorPrimaryDark">#16a085</color>
+   <!-- <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGreen">#00897B</color>
+    <color name="gray">#444440</color>
+    <color name="black">#000000</color>
+
+    <color name="searchview_back_color">#E3E5E5</color>
+    <color name="status_list_row_color">#d6d7d8</color>
+    <color name="listview_item_selected">#70c2ea</color>
+    <color name="user_name_text_color">#5B5C56</color>
+    <color name="login_shape_background">#D8EAF6</color>
+    <color name="circle_shape_background">#01FFFF</color>
+</resources>

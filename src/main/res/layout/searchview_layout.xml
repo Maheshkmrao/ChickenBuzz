@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/searchview_back_color"
+    android:padding="@dimen/fifteen_dp">
+
+    <!--<android.support.v7.widget.SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/search_edittext_shape"
+         />-->
+
+    <EditText
+        android:id="@+id/searchview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/search_edittext_shape"
+        android:ems="10"
+        android:hint="@string/search_title"
+        android:inputType="none"
+        android:padding="@dimen/five_dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:textSize="@dimen/text_size_small" />
+
+</RelativeLayout>

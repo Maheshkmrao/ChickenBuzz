@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/twenty_dp"
+    android:background="@drawable/custom_dialog_background_shape">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/ten_dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/login_relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/picker_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/ten_dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Cancel"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/picker_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/ten_dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/button_call"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</RelativeLayout>

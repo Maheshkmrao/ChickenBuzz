@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:layout_width="30dp"
+        android:paddingRight="1dp"
+        android:paddingEnd="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/intl_phone_edit__country"
+        android:dropDownWidth="350dp"
+        android:layout_gravity="center_vertical"
+        tools:ignore="RtlSymmetry" />
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intl_phone_edit__phone"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:maxLength="14"
+        android:inputType="phone" />-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/intl_phone_edit__phone"
+            android:singleLine="true"
+            android:textSize="24sp"
+            android:hint="@string/hint_phonenumber"
+            android:inputType="phone" />
+
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

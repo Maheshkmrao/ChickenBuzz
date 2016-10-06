@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Chicken Buzz</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_phonenumber">Phone Number</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_invitationcode">Invitation Code</string>
+    <string name="hint_emailaddress">Email Address</string>
+    <string name="hint_smsverificationcode">SMS Verification Code</string>
+    <string name="hint_reg_pin">Pin</string>
+    <string name="hint_reg_confirm_pin">Confirm Pin</string>
+    <string name="hint_reg_emergency_pin">Secret Pin</string>
+    <string name="hint_dob">Select Your DOB</string>
+    <string name="hint_gender">Select Your Gender</string>
+    <string name="hint_reg_confirm_emergency_pin">Confirm Secret Pin</string>
+    <string name="accept_terms">Accept Terms &amp; Conditions.</string>
+    <string name="err_msg_phonenumber">Enter Valid Phone Number</string>
+    <string name="err_msg_email">Enter valid Email Address</string>
+    <string name="err_msg_invitationcode">Enter the Invitation Code</string>
+
+    <string name="err_msg_smsverfication_pin">oops! Did not catch. Help me with SMS code.</string>
+    <string name="err_msg_register_pin">oops! Did not catch pin.</string>
+    <string name="err_msg_confirm_register_pin">oops! Did not catch confirm pin</string>
+    <string name="err_msg__emergency_pin">oops! Did not catch secret pin.</string>
+    <string name="err_msg_confirm_emergency_pin">oops! Did not catch confirm secret pin.</string>
+    <string name="fetchingdata">Fetching data from server</string>
+    <string name="err_msg_same_pin">oops! Got wrong data for pin.</string>
+    <string name="err_msg_same_emergency_pin">Oops! Got wrong data for Secret pin.</string>
+    <string name="hint_height">Height</string>
+    <string name="hint_aleternative_phno">Alternative Phone Number</string>
+    <string name="hint_email">Email</string>
+
+    <string name="gender_prompt">Select your Gender</string>
+    <string-array name="gender_array">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBMTwJHHy5VrJdJUv_RxM6HsTqEKfBkYFQ</string>
+
+    <string name="check_your_network_connection">Please check your INTERNET Connection</string>
+    <string name="error_unable_to_get_response">Unable to get response from server. Please try again later with proper details.</string>
+    <string name="err_msg_first_name">oops! Did not catch First Name.</string>
+    <string name="err_first_name_toomuch_long">Oops! Too much data for me</string>
+    <string name="err_msg_last_name">oops! Did not catch Last Name.</string>
+    <string name="err_msg_gender">oops! Did not catch gender value.</string>
+    <string name="err_msg_dob">oops! Did not catch DOB value.</string>
+    <string name="err_msg__adult_dob">oops! Your age should be 13 years.</string>
+    <string name="err_msg_height">oops! Did not catch height.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_nickname">Nick Name</string>
+    <string name="err_msg_nickname">Enter valid nickname</string>
+    <string name="are_you_sure_to_exit">Are you Sure?</string>
+    <string name="do_you_want_to_exit_application">Are you Sure you want to exit the app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="decline_message">Look forward to assisting you, your family and friend\'s safety concerns in future.</string>
+    <string name="gps_network_not_enabled">GPS provider not enabled</string>
+    <string name="open_location_settings">Open Locatin Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="button_begin">Begin</string>
+
+    <string name="open_notifications">Open</string>
+    <string name="history_notifications">History</string>
+    <string name="err_msg_mandatory_fields_not_filled">Mandatory fields Not filled</string>
+    <string name="err_msg_already_opening_fragment">Already opened this screen</string>
+    <string name="permission_granted_locations">Location Permission Granted.</string>
+    <string name="err_msg_permission_locations">Please grant Location Permission from your Settings.</string>
+    <string name="err_msg_accept_tc">Please accept Terms and Conditions.</string>
+    <string name="permission_granted_contacts">Contacts Permission Granted.</string>
+    <string name="permission_granted_call">Call Permission Granted.</string>
+    <string name="err_msg_permission_contacts">Please grant Contact Permission from your Settings.</string>
+    <string name="err_msg_permission_camera">Please grant Camera Permission from your Settings.</string>
+    <string name="err_msg_permission_write_storage">Please grant Write Storage Permission from your Settings.</string>
+    <string name="err_msg_permission_call">Please grant Call Permission from your Settings.</string>
+    <string name="err_msg_cant_access_location_feature">You can\'t access this feature until you grant Location permissions.</string>
+    <string name="err_msg_unable_to_create_maps">Sorry! unable to create maps</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_others">Others</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="camera">Camera</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="add_photo_title">Add Photo!</string>
+    <string name="select_file">Select File</string>
+    <string name="your_details_updated_succesfully">Your details updated successfully</string>
+    <string name="address">Address</string>
+    <string name="no_address_found">No Address found</string>
+    <string name="unable_to_find_your_location">Unable to find your location</string>
+    <string name="err_msg_enter_address">Please enter Address</string>
+    <string name="your_location_added_succssfully">Your location added succssfully.</string>
+    <string name="my_location">My Location</string>
+    <string name="title_permission_necessary">Permission necessary</string>
+    <string name="err_msg_external_storage_permission_necessary">External storage permission is necessary</string>
+    <string name="err_msg_camera_permission_necessary">Camera permission is necessary</string>
+    <string name="err_msg_location_permission_necessary">Location permission is necessary</string>
+    <string name="err_msg_call_permission_necessary">Call permission is necessary</string>
+
+    <string name="instraction_message_thank_you">Thank you for registering at personal monitoring app Chicken Buzz.We will guide you through a setup wizard with below steps.</string>
+    <string name="instraction_message_1">1. About me--> Your information</string>
+    <string name="instraction_message_2">2. Follow you--> Accept any pending requests.</string>
+    <string name="instraction_message_3">3. Authorize users--> Send follow me requests to your friends and famailies.Please send authorization to at least three people.</string>
+    <string name="instraction_message_4">Note: Any user can be a primary contact for six users only.</string>
+    <string name="instraction_message_5">4. My locations--> Add frequently visited location address with a nickname.</string>
+    <string name="instraction_message_6">5. Send invite--> This app is inviation only for beta users. You can send 20 invitations to your friends and family members to use this APP.</string>
+    <string name="terms_conditions_1">Mobile app Terms and Conditions. Coming Soon.....</string>
+    <string name="autherize_settings">I autherize this app to collect below based sensors data.</string>
+    <string name="button_decline">Decline</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_save">Save</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_next">Next</string>
+    <string name="button_register">Register</string>
+    <string name="search_title">Search Contacts</string>
+    <string name="watch_me_title">Set interval to check with you.</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_close">Close</string>
+
+    //Screen Title Name's
+    <string name="title_pre_registration">Pre Registration</string>
+    <string name="title_registration">Registration</string>
+    <string name="title_aboutme">About Me</string>
+    <string name="title_follow_me">Follow Me</string>
+    <string name="title_sending_invite">Sending Invite</string>
+    <string name="title_follow_you">Follow You</string>
+    <string name="title_instraction">Instraction</string>
+    <string name="title_invite">Invite</string>
+    <string name="title_my_alerts">Notifications</string>
+    <string name="title_my_locations">My Locations</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_terms_conditions">Terms &amp; Conditions</string>
+    <string name="title_change_pin">Change Pin</string>
+
+    <string name="home">Home</string>
+    <string name="buzz">Buzz</string>
+    <string name="track_me">Track Me</string>
+    <string name="call_police">Call Police</string>
+    <string name="medical_help">Medical Help</string>
+    <string name="buzz_contacts">Buzz Contact</string>
+    <string name="watch_me">Watch Me</string>
+    <string name="button_call">Call</string>
+    <string name="call_to_police_no">Call Police : 911</string>
+    <string name="call_to_ambulance">Call Ambulance</string>
+    <string name="buzz_contacts_dialog_title">We contacted your Family and Freinds. Someone will get touch with you soon.</string>
+
+    <string-array name="settings_array">
+        <item>Battery</item>
+        <item>Mobile Network Info</item>
+        <item>OS info</item>
+        <item>Process Info</item>
+        <item>Services</item>
+        <item>Time Off Set</item>
+        <item>Phone Info</item>
+        <item>Screen On/Off</item>
+        <item>Pressure Sensor</item>
+        <item>Light Sensor</item>
+        <item>Proximity Sensor</item>
+        <item>Magnetic Field Sensor</item>
+        <item>Temperature Sensor</item>
+        <item>Microphone</item>
+        <item>Camera</item>
+        <item>Rotation vector Sensor</item>
+        <item>Accelerometer Features</item>
+        <item>Accelerometer Sensor</item>
+        <item>Gyroscope Sensor</item>
+        <item>Gravity Sensor</item>
+        <item>Orientation Sensor</item>
+        <item>Linear Acceleration Sensor</item>
+        <item>Activity</item>
+        <item>Close Wi-Fi</item>
+        <item>Close Cell Towers</item>
+        <item>Close Bluetooth</item>
+        <item>Contacts </item>
+        <item>SMS Log</item>
+        <item>Call Log</item>
+
+    </string-array>
+
+</resources>

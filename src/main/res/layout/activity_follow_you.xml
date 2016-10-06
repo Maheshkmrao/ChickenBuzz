@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/followMe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/searchview_back_color"
+        android:padding="@dimen/fifteen_dp">
+
+        <Spinner
+            android:id="@+id/follow_you_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/five_dp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/followMe_layout"
+        android:layout_above="@+id/btn_next"
+        android:layout_marginBottom="@dimen/five_dp"
+        android:layout_marginLeft="@dimen/five_dp"
+        android:layout_marginRight="@dimen/five_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:clickable="true"
+        android:scrollbars="vertical"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"
+        android:text="@string/button_next"
+        android:textColor="@color/colorWhite"
+        />
+
+</RelativeLayout>

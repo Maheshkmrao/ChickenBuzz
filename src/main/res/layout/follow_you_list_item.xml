@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/follow_you_layout"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/user_listrow_selector"
+    android:layout_margin="@dimen/ten_dp"
+    android:padding="@dimen/five_dp"
+    >
+
+	<ImageView android:id="@+id/imageView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@android:drawable/sym_def_app_icon"
+	    android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/star_image"
+	    />
+
+	<TextView android:id="@+id/textView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/user_name_text_color"
+	    android:textStyle="normal"
+	    android:text="@string/app_name"
+		android:textSize="@dimen/text_size_medium1"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="@dimen/five_dp"
+	    android:layout_toRightOf="@+id/imageView"
+	    />
+
+	<Button android:id="@+id/deleteicon"
+		android:layout_width="@dimen/fifty_dp"
+		android:layout_height="@dimen/fifty_dp"
+		android:background="@drawable/circle_shape"
+		android:layout_margin="@dimen/five_dp"
+		android:layout_centerVertical="true"
+		android:text="10"
+		android:textSize="@dimen/text_size_large1"
+		android:textStyle="bold"
+		android:textColor="@color/colorWhite"
+		android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
